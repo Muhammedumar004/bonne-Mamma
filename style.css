@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.draw-circle {
+    position: relative;
+    /* display: inline-block; */
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px 20px;
+    color: #000;
+    
+  }
+
+  .draw-circle span {
+    position: relative;
+    z-index: 2;
+  }
+
+  .draw-circle svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .draw-circle ellipse {
+    fill: none;
+    stroke: rgba(221, 4, 4, 0.973);
+    stroke-width: 1.5;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    transition: stroke-dashoffset 0.9s ease;
+    /* transform: rotate(-6deg); 💡 This makes the end point go slightly up */
+    transform-origin: center;
+    stroke-linecap: round; /* for smooth ends */
+  }
+
+  .draw-circle:hover ellipse {
+    stroke-dashoffset: 0;
+  }
