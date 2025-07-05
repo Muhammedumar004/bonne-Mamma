@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bonne Maman Navbar</title>
+  <title>Bonne Maman </title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -17,23 +17,29 @@
 </head>
 <body class="bg-white text-gray-800">
   <header class="border-b pt-5 pb-10 flex justify-center block">
-
-    
-    <div class="hidden md:block text-sm">
-        <a href="#" class="hover:underline ">Contact us</a>
-      </div>
     <div class="max-w-7xl mx-20  px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
       
-      <!-- Left: Contact -->
-      
-
       <!-- Center: Logo and Nav -->
       <div class="flex flex-col items-center space-y-1 ">
         <!-- Logo -->
-        <div class="text-2xl font-cursive font-semibold text-center pt-10 pb-5">Bonne Maman</div>
+         <div class="flex items-center justify-between w-full">
+          <div class="hidden md:block text-sm">
+            <a href="#" class="hover:underline ">Contact us</a>
+          </div>
+          <div class="text-2xl font-cursive font-semibold text-center pt-10 pb-5 ">Bonne Maman</div>
+          <div class="flex items-center space-x-4 text-sm">
+          <button class="border rounded px-3 py-1 hover:bg-gray-100">Search</button>
+          <span class="hidden md:inline">📍</span>
+          <span class="hidden md:inline">👤</span>
+          <div class="relative">
+          <span class="text-lg">🛒</span>
+        </div>
+      </div>
+         </div>
+        
 
         <!-- Desktop Nav -->
-        <nav class="hidden md:flex space-x-2 text-sm font-medium">
+        <nav class="hidden md:flex space-x-5 text-sm font-medium">
           <a href="#" class="hover:text-red-600 draw-circle" >Shop All
               <svg viewBox="0 0 200 60" preserveAspectRatio="none">
              <ellipse cx="100" cy="30" rx="95" ry="25" />
@@ -58,7 +64,7 @@
               <svg viewBox="0 0 200 60" preserveAspectRatio="none">
              <ellipse cx="100" cy="30" rx="95" ry="25" />
                 </svg>
-          </a>
+          </a> 
           <a href="#" class="hover:text-red-600 draw-circle">Product Information
               <svg viewBox="0 0 200 60" preserveAspectRatio="none">
              <ellipse cx="100" cy="30" rx="95" ry="25" />
@@ -75,14 +81,7 @@
       
     </div>
       <!-- Right: Icons as text placeholders -->
-      <div class="flex items-center space-x-4 text-sm">
-        <button class="border rounded px-3 py-1 hover:bg-gray-100">Search</button>
-        <span class="hidden md:inline">📍</span>
-        <span class="hidden md:inline">👤</span>
-        <div class="relative">
-          <span class="text-lg">🛒</span>
-        </div>
-      </div>
+      
   </header>
 
 
@@ -99,11 +98,462 @@
     <div class="carousel-item active">
       <img src="https://bonnemaman.us/cdn/shop/files/Bonne_Maman_Sampler_Gift_tin_2.jpg?v=1730138424&width=1920" class="d-block w-100" alt="...">
     </div>
-  </div>
-  </div>
+   </div>
+   </div>
     <!-- mainbanner end -->
 
+
+    <div class="px-4 py-12 text-center">
+  <!-- Heading -->
+  <h2 class="text-3xl md:text-4xl font-serif font-semibold mb-10">
+    Shop by <span class="italic">occasion</span>
+  </h2>
+
+  <!-- Grid of occasion items -->
+<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
+  <!-- Item 1 -->
+  <div class="flex flex-col items-center">
+    <img src="https://bonnemaman.us/cdn/shop/files/made-for-you-thumb.jpg?v=1729113131&width=320" alt="Thank You" class="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-md mb-4" />
+    <p class="text-lg font-medium draw-circle">Thank You
+      <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+             <ellipse cx="100" cy="30" rx="95" ry="25" />
+                </svg>
+    </p>
+  </div>
+  
+  <!-- Item 2 -->
+  <div class="flex flex-col items-center">
+    <img src="https://bonnemaman.us/cdn/shop/files/10Ways_Desktop_MadeSimply_M3.jpg?v=1730138263&width=384" alt="Birthday" class="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-md mb-4" />
+    <p class="text-lg font-medium draw-circle">Birthday
+      <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+             <ellipse cx="100" cy="30" rx="95" ry="25" />
+                </svg>
+    </p>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="flex flex-col items-center">
+    <img src="https://bonnemaman.us/cdn/shop/files/BM_Sampler_Gift_Tin_mobile.jpg?v=1730139024&width=320" alt="Congratulations" class="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-md mb-4" />
+    <p class="text-lg font-thin  draw-circle">Congratulations
+      <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+             <ellipse cx="100" cy="30" rx="95" ry="25" />
+                </svg>
+    </p>
+  </div>
+</div>
+
+
+  <!-- Footer Note -->
+  <div class="mt-12 flex justify-center items-center gap-2 text-xl text-gray-800">
+    <span>🏖️</span>
+    <span class="font-serif">Summertime recipes with Bonne Maman</span>
+    <span class="text-red-500">♡</span>
+  </div>
+</div>
+
+
     
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto p-4">
+  <!-- Card 1: Blueberry fizz mocktail -->
+  <div class="relative overflow-hidden rounded-lg shadow-lg group">
+    <img
+      src="https://bonnemaman.us/cdn/shop/files/Blueberry_BasilFizz_CORE_4_5.jpg?v=1749068629&width=1080"
+      alt="Blueberry fizz mocktail"
+      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+    />
+    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent text-white p-6">
+      <h3 class="text-2xl font-semibold">Blueberry fizz mocktail</h3>
+      <a href="#" class="inline-block mt-2 text-sm underline hover:no-underline">
+        Recipe →
+      </a>
+    </div>
+  </div>
+
+  <!-- Card 2: Coconut shrimp with guava -->
+  <div class="relative overflow-hidden rounded-lg shadow-lg group">
+    <img
+      src="https://bonnemaman.us/cdn/shop/files/Bonne_Maman_Coconut_Shrimp_Spicy_Guava_Sauce_Web.jpg?v=1747940372&width=1080"
+      alt="Coconut shrimp with guava"
+      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+    />
+    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent text-white p-6">
+      <h3 class="text-2xl font-semibold">Coconut shrimp with guava</h3>
+      <a href="#" class="inline-block mt-2 text-sm underline hover:no-underline">
+        Recipe →
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- card start -->
+
+<div class="p-6 bg-white min-h-screen">
+  <h2 class="text-3xl text-center font-serif mb-10">
+    Unique <span class="italic font-bold">gifts</span>
+  </h2>
+
+  <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+    <!-- Sampler Gift Tin -->
+    <div class="group relative bg-white border rounded-lg shadow hover:shadow-xl overflow-hidden">
+      <div class="relative">
+        <img src="https://bonnemaman.us/cdn/shop/files/MadeForYou.jpg?v=1736178908&width=640" alt="Sampler Gift Tin" class="w-full h-auto object-cover">
+        <button class="absolute bottom-0 left-0 w-full bg-red-600 text-white text-sm font-medium py-2 opacity-0 group-hover:opacity-100 transition duration-300">
+          Add to Cart
+        </button>
+      </div>
+      <div class="p-4">
+        <h3 class="text-lg font-medium">Sampler Gift Tin</h3>
+        <p class="text-gray-700">$26.90</p>
+      </div>
+    </div>
+
+    <!-- "Love Notes" Gift Set -->
+    <div class="group relative bg-white border rounded-lg shadow hover:shadow-xl overflow-hidden">
+      <div class="relative">
+        <img src="https://bonnemaman.us/cdn/shop/files/Bonne_Maman_Love_Notes_Front_780x780_49dcdf36-d4b8-40e7-adb4-7a57f71d4621.jpg?v=1738779894&width=640" alt="Love Notes Gift Set" class="w-full h-auto object-cover">
+        <button class="absolute bottom-0 left-0 w-full bg-red-600 text-white text-sm font-medium py-2 opacity-0 group-hover:opacity-100 transition duration-300">
+          Add to Cart
+        </button>
+      </div>
+      <div class="p-4">
+        <h3 class="text-lg font-medium">"Love Notes" Gift Set</h3>
+        <p class="text-gray-500 line-through">$25.90</p>
+        <p class="text-red-600 font-semibold">$23.90</p>
+      </div>
+    </div>
+
+    <!-- Pie Fillings Baking Set -->
+    <div class="group relative bg-white border rounded-lg shadow hover:shadow-xl overflow-hidden">
+      <div class="relative">
+        <img src="https://bonnemaman.us/cdn/shop/files/pie_fillings.jpg?v=1735944673&width=640" alt="Pie Fillings Baking Set" class="w-full h-auto object-cover">
+        <button class="absolute bottom-0 left-0 w-full bg-red-600 text-white text-sm font-medium py-2 opacity-0 group-hover:opacity-100 transition duration-300">
+          Add to Cart
+        </button>
+      </div>
+      <div class="p-4">
+        <h3 class="text-lg font-medium">Pie Fillings Baking Set</h3>
+        <p class="text-gray-700">$55.00</p>
+      </div>
+    </div>
+
+    <!-- Made For You Gift Set -->
+    <div class="group relative bg-white border rounded-lg shadow hover:shadow-xl overflow-hidden">
+      <div class="relative">
+        <img src="https://bonnemaman.us/cdn/shop/files/MadeForYou.jpg?v=1736178908&width=640" alt="Made For You Gift Set" class="w-full h-auto object-cover">
+        <button class="absolute bottom-0 left-0 w-full bg-red-600 text-white text-sm font-medium py-2 opacity-0 group-hover:opacity-100 transition duration-300">
+          Add to Cart
+        </button>
+      </div>
+      <div class="p-4">
+        <h3 class="text-lg font-medium">Made For You Gift Set</h3>
+        <p class="text-gray-700">$21.90</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card end -->
+
+
+
+<!--  -->
+  <img src="1.jpg" class="d-block w-screen " alt="..."> 
+  <!--  -->
+  <!--  -->
+<div class="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white ">
+  <!-- Left Red Panel -->
+  <div class="bg-red-600 text-white flex items-center justify-center p-10">
+    <div class="max-w-md text-center lg:text-left">
+      <h2 class="text-3xl font-serif mb-4">Recipes by</h2>
+      <h1 class="text-4xl font-bold italic mb-4">Bonne Maman</h1>
+      <p class="mb-6">
+        Treat yourself and those you love with a special selection of homemade recipes using your favorite Bonne Maman Preserves, Curds, and Spreads.
+      </p>
+      <button class="bg-white text-red-600 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition">
+        See the recipes
+      </button>
+    </div>
+  </div>
+
+  <!-- Right Recipe Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 bg-red-600">
+    <!-- Card 1 -->
+    <div class="bg-white p-4">
+      <img src="https://bonnemaman.us/cdn/shop/articles/Raspberry_NiceCream_MFLS_NEW_1842_2304_e9d0ca61-246d-4246-8987-332b8337829f.jpg?v=1751563034&width=640" alt="Raspberry Sorbet" class="w-full mb-3 rounded w-full h-64 object-cover rounded mb-3">
+      <div class="text-sm text-gray-700 flex justify-between ">
+        <span>⏱️ 5 mins + optional chill time</span>
+        <span>🍴 Easy</span>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white p-4">
+      <img src="https://bonnemaman.us/cdn/shop/articles/BMxCHO_Apricot_Focaccia_1080_1350_c19a866b-7796-4ad6-a520-f2613547166d.jpg?v=1749555374&width=640" alt="Apricot Thumbprint" class="w-full mb-3 rounded w-full h-64 object-cover rounded mb-3">
+      <div class="text-sm text-gray-700 flex justify-between">
+        <span>⏱️ 10 hrs</span>
+        <span>🍴 Easy</span>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="bg-white p-4">
+      <img src="https://bonnemaman.us/cdn/shop/articles/Blueberry_BasilFizz_CORE_4_5_ae031662-eea5-4ccd-ae10-8ee6b4a277df.jpg?v=1750080720&width=640" alt="Apricot Thumbprint" class="w-full mb-3 rounded w-full h-64 object-cover rounded mb-3">
+      <div class="text-sm text-gray-700 flex justify-between">
+        <span>⏱️ 10 hrs</span>
+        <span>🍴 Easy</span>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="bg-white p-4">
+      <img src="https://bonnemaman.us/cdn/shop/articles/BMxCHO_HazChocMole_Enchiladas_1080_1350_0044cc1d-259a-4638-913b-e9e14d3be872.jpg?v=1749583376&width=640" alt="Apricot Thumbprint" class="w-full mb-3 rounded w-full h-64 object-cover rounded mb-3">
+      <div class="text-sm text-gray-700 flex justify-between">
+        <span>⏱️ 10 hrs</span>
+        <span>🍴 Easy</span>
+      </div>
+    </div>    
+    </div>
+  </div>
+</div>
+<!--  -->
+<!-- Heading -->
+<div class="py-10 px-4 text-center">
+  <h2 class="text-3xl font-serif font-medium">
+    Join the Bonne Maman <span class="italic font-bold">community</span>
+  </h2>
+  <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+    Add a touch of sweetness to your everyday life: recipes, exclusives and many other surprises to be found with Bonne Maman
+  </p>
+  <button class="mt-6 px-6 py-3 bg-red-600 text-white font-semibold rounded shadow hover:bg-red-700 transition">
+    <i class="fab fa-instagram mr-2"></i> Discover our Instagram
+  </button>
+</div>
+
+<!-- Instagram Photo Row -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1 px-4 pb-10">
+  <!-- Single Image Card -->
+  <div class="relative group">
+    <img src="https://scontent.cdninstagram.com/v/t51.82787-15/515447126_18359957377145586_1635086745643358258_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=1-7&_nc_sid=18de74&_nc_ohc=RRSx_r_sEUAQ7kNvwG5sIH7&_nc_oc=Admm8YdAGA6hEQSIMNjMNhL5YxjBWZgXsxUvb4zb4K_3GR7DQaj_4uca0l95dZmXsVA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=XzuuUgHuqFFW5jCoih2pcA&oh=00_AfSjBCFz1MR8IcDgXQVx4ZiaM1_Wm_dYoj0hSpsez8pH-w&oe=686F110F" class="w-full h-48 object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+      <i class="fab fa-instagram text-white text-3xl"></i>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="relative group">
+    <img src="https://scontent.cdninstagram.com/v/t51.82787-15/504560400_18359754667145586_8981769789818012625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=Phm8guTQKzIQ7kNvwEObsFG&_nc_oc=AdnAR_M7jWDFGaYvWjWLMuVQZ6d2FjLDPKM3WYHGNDVEshRXs4M-FnIG-PVXfDscI4k&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=XzuuUgHuqFFW5jCoih2pcA&oh=00_AfRm2sZJupskpGda-pcO1JQUOSgfJFW9jBhWPrGqXpIunQ&oe=686F0AC3" class="w-full h-48 object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+      <i class="fab fa-instagram text-white text-3xl"></i>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="relative group">
+    <img src="https://scontent.cdninstagram.com/v/t51.82787-15/515309926_18359557201145586_6576068319339452840_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=HsTKeF0Y_isQ7kNvwH4drIt&_nc_oc=AdnxcFuVGUC3SfBSOVyxRbRi5rpccK4UnAqXw7ajDfcdBJyGHO-rTkw1r4M6x1nqTw0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=H5eSvJagDhwODSemdKvJwg&oh=00_AfSR-WiOpFoZ08WQLEmDGaXR_EmrNrS6hkXxoYX2CmsD7A&oe=686F1187" class="w-full h-48 object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+      <i class="fab fa-instagram text-white text-3xl"></i>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="relative group">
+    <img src="https://scontent.cdninstagram.com/v/t51.75761-15/502335361_18359218558145586_1684546054352832059_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=1-7&_nc_sid=18de74&_nc_ohc=vjTY7hJoW_YQ7kNvwEnTC9z&_nc_oc=AdkyIoYN8Pw8K43120_JP6pj0NgBwgUzsu1sjIDy5tKGgGqbFycptVX7MdYQn17Xlwk&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=H5eSvJagDhwODSemdKvJwg&oh=00_AfRproNAVf4g5I9N2UbuMhEkYxfFBF1FNGnjRRtI90a9sA&oe=686F0E5B" class="w-full h-48 object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+      <i class="fab fa-instagram text-white text-3xl"></i>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="relative group">
+    <img src="https://scontent.cdninstagram.com/v/t51.75761-15/510970684_18359008819145586_1215651238197930344_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=kOosGcHp2YUQ7kNvwGNC2Lk&_nc_oc=AdmBXUZkeCE13iB8Ekj-WLnvAqS6MdoGvi27joFoz8l_xRx3n1wpnGmzLLrjWpv544Q&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=H5eSvJagDhwODSemdKvJwg&oh=00_AfRmZ92KElvK3Ic8TZTnqHRizXNsYxOTmNqNNGCsykHIFw&oe=686F39B9" class="w-full h-48 object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+      <i class="fab fa-instagram text-white text-3xl"></i>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="relative group">
+    <img src="https://scontent.cdninstagram.com/v/t51.75761-15/503552629_18358794433145586_8726802401328433418_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=2W-xwjsrBGEQ7kNvwFy-iZB&_nc_oc=AdkekXX4cyr43k_mzKoIXg02yWfUJmFUsAFw9H73_OhzB_fzxG8uYEm20aziCfKW3XY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=H5eSvJagDhwODSemdKvJwg&oh=00_AfRDcFL8F1OQKqvDCp6DQ7dklj5tUZIAC3kRAFQUX5FNCQ&oe=686F0C03" class="w-full h-48 object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+      <i class="fab fa-instagram text-white text-3xl"></i>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<!--  -->
+<div class="bg-white py-12 px-4 sm:px-6 lg:px-12">
+  <!-- Title -->
+  <h2 class="text-center text-3xl font-serif font-bold mb-10">Customers reviews</h2>
+
+  <!-- Rating & Reviews -->
+  <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-10">
+    <!-- Overall Rating -->
+    <div class="text-center flex-shrink-0">
+      <p class="text-xl font-semibold mb-2">Excellent</p>
+      <div class="flex justify-center mb-2">
+        <img src="star.png" alt="4.5 stars" class="h-6" />
+      </div>
+      <p class="text-sm text-gray-600">Based on <u>651 reviews</u></p>
+      <img src="star.png" alt="Trustpilot" class="h-5 mx-auto mt-1" />
+    </div>
+
+    <!-- Individual Reviews -->
+    <div class="grid md:grid-cols-2 gap-6 lg:gap-8 flex-grow">
+      <!-- Review Card -->
+      <div class="bg-gray-50 p-4 rounded shadow-sm">
+        <div class="flex items-center gap-2 mb-2">
+          <img src="star.png" class="h-5" alt="5 stars" />
+          <span class="text-sm text-gray-500">✔ Verified</span>
+        </div>
+        <h3 class="font-semibold mb-1">Well packaged and arrived quickly</h3>
+        <p class="text-sm text-gray-700">Well packaged and arrived quickly. I can’t wait to try all these goodies.</p>
+        <p class="text-xs text-gray-400 mt-2">Stephanie Renaud, 6 days ago</p>
+      </div>
+
+      <div class="bg-gray-50 p-4 rounded shadow-sm">
+        <div class="flex items-center gap-2 mb-2">
+          <img src="star.png" class="h-5" alt="5 stars" />
+          <span class="text-sm text-gray-500">✔ Verified</span>
+        </div>
+        <h3 class="font-semibold mb-1">Above and beyond</h3>
+        <p class="text-sm text-gray-700">The customer service Bonne Momann is exceptional. It is so good.</p>
+        <p class="text-xs text-gray-400 mt-2">Erica S, June 28</p>
+      </div>
+
+      <div class="bg-gray-50 p-4 rounded shadow-sm">
+        <div class="flex items-center gap-2 mb-2">
+          <img src="star.png" class="h-5" alt="5 stars" />
+          <span class="text-sm text-gray-500">✔ Verified</span>
+        </div>
+        <h3 class="font-semibold mb-1">Nice variety</h3>
+        <p class="text-sm text-gray-700">I ordered the variety of jams as a present to myself for my birthday.</p>
+        <p class="text-xs text-gray-400 mt-2">Customer, June 25</p>
+      </div>
+
+      <div class="bg-gray-50 p-4 rounded shadow-sm">
+        <div class="flex items-center gap-2 mb-2">
+          <img src="star.png" class="h-5" alt="4.5 stars" />
+          <span class="text-sm text-gray-500">✔ Verified</span>
+        </div>
+        <h3 class="font-semibold mb-1">The products I ordered arrived...</h3>
+        <p class="text-sm text-gray-700">The products I ordered arrived on time, and were in excellent shape.</p>
+        <p class="text-xs text-gray-400 mt-2">Deborah O'Rear, June 24</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="my-12 border-t border-gray-200"></div>
+
+  <!-- Bottom Highlights -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center text-gray-800">
+    <div>
+      <div class="text-3xl mb-2">🎁</div>
+      <p class="font-semibold">Packed with care</p>
+      <p class="text-sm text-gray-600">in a nice box</p>
+    </div>
+    <div>
+      <div class="text-3xl mb-2">📧</div>
+      <p class="font-semibold">Dedicated customer service</p>
+      <p class="text-sm text-gray-600">
+        <a href="mailto:info@bonnemaman.us" class="text-blue-600 hover:underline">info@bonnemaman.us</a><br />
+        or 914-393-6307<br />
+        9am–5pm ET
+      </p>
+    </div>
+    <div>
+      <div class="text-3xl mb-2">🔒</div>
+      <p class="font-semibold">Secured Payment</p>
+      <p class="text-sm text-gray-600">Visa / Mastercard / Amex / Apple Pay / Google Pay</p>
+    </div>
+    <div>
+      <div class="text-3xl mb-2">🚚</div>
+      <p class="font-semibold">Fedex Delivery</p>
+      <p class="text-sm text-gray-600">Ground / 2 Day / Overnight</p>
+    </div>
+  </div>
+</div>
+  <!--  -->
+   <!--  -->
+  <footer class="bg-white text-gray-800 px-6 py-12">
+  <!-- Newsletter Signup -->
+  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-start gap-10 mb-12">
+    <div class="flex-1">
+      <p class="text-sm mb-1">Subscribe to our newsletter</p>
+      <h2 class="text-3xl sm:text-4xl font-serif font-semibold leading-snug">
+        Discover our <span class="italic font-bold">latest offers</span> in your mailbox
+        <span class="text-red-500 text-lg">❤❤</span>
+      </h2>
+      <form class="mt-6 max-w-md">
+        <div class="flex rounded border border-gray-300 overflow-hidden shadow-sm">
+          <input type="email" placeholder="Enter your e-mail address" class="w-full px-4 py-3 outline-none" />
+          <button type="submit" class="px-4 text-xl bg-white hover:bg-gray-100">→</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 text-sm w-full max-w-3xl">
+      <div>
+        <h3 class="font-semibold mb-2">The brand</h3>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:underline">Our Story</a></li>
+          <li><a href="#" class="hover:underline">Product Information</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">Customer Service</h3>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:underline">FAQ</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+          <li><a href="#" class="hover:underline">Accessibility</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">Our Shoppable Products</h3>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:underline">Bonne Maman Sampler Gift Tin</a></li>
+          <li><a href="#" class="hover:underline">Made For You</a></li>
+          <li><a href="#" class="hover:underline">Love Notes</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social + Country -->
+  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6 border-t pt-6">
+    <div class="flex space-x-4 text-xl">
+      <a href="#"><i class="fab fa-instagram">📷</i></a>
+      <a href="#"><i class="fab fa-pinterest">📌</i></a>
+      <a href="#"><i class="fab fa-youtube">▶️</i></a>
+      <a href="#"><i class="fab fa-facebook">📘</i></a>
+    </div>
+
+    <div>
+      <select class="border border-gray-300 px-3 py-2 rounded shadow-sm text-sm">
+        <option selected>🇺🇸 United States</option>
+        <!-- Add more countries if needed -->
+      </select>
+    </div>
+  </div>
+
+  <!-- Bottom Info -->
+  <div class="max-w-7xl mx-auto mt-10 border-t pt-6 flex flex-col lg:flex-row justify-between items-center gap-6 text-sm">
+    <div class="flex items-center gap-2">
+      <img src="https://bonnemaman.us/cdn/shop/files/Logo_mobile.png?v=1733760632&width=400" alt="Bonne Maman" class="h-6" />
+      <span>Colorz® – Copyright © 2025 Bonne Maman®</span>
+    </div>
+    <div class="text-center">
+      <p>Made with premium ingredients, no high fructose corn syrup, no additives or preservatives.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
+      <a href="#" class="hover:underline">Customer Online Agreement</a>
+      <a href="#" class="hover:underline">Shipping Policy</a>
+      <a href="#" class="hover:underline">Privacy Policy</a>
+    </div>
+  </div>
+ </footer>
+ <!--  -->
 
   </main>
 </body>
